@@ -167,7 +167,16 @@ ul li a:hover {
   text-decoration: underline;
   opacity: 1;
 }
-
+.video_image .content {
+  display: flex;
+}
+.video_img .video_image video {
+  width: 132px;
+  height: 67px;
+  padding: 8px;
+  border-radius: 10px;
+  object-fit: cover;
+}
 footer {
   background: #f2f2f2;
 }
