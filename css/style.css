@@ -14,8 +14,9 @@
 #app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  gap: 2rem;
 }
+
 nav {
   display: flex;
   align-items: center;
@@ -144,6 +145,29 @@ nav .sun_moon {
 .lang a:hover {
   text-decoration: underline;
 }
+
+ul {
+  list-style-type: none;
+}
+.category_list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: start;
+}
+ul li a {
+  padding: 0px 0px 5px 0px;
+  color: #000;
+  opacity: 0.7;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  font-size: 14px;
+}
+ul li a:hover {
+  text-decoration: underline;
+  opacity: 1;
+}
+
 footer {
   background: #f2f2f2;
 }
